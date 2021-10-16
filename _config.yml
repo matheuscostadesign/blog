@@ -1,6 +1,6 @@
 # Base blog settings
 baseurl:
-  "/blog3" # the subpath of your site,                         # e.g. /blog/
+  "''" # the subpath of your site,                         # e.g. /blog/
   # set to '' in case of hosting on GitHub
 url:
   "https://matheuscostadesign.github.io" # the base hostname & protocol for your site
@@ -49,8 +49,8 @@ plugins:
   - jekyll-sitemap
 
 # Permalinks
-#permalink: posts/:slug
-permalink: /:title/ #padrao da url (url amigavel, só mostra o titulo da postagem
+permalink: posts/:slug
+#permalink: /:title/ #padrao da url (url amigavel, só mostra o titulo da postagem
 
 # Posts
 excerpt_separator: <!–-break-–>
