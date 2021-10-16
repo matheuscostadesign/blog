@@ -1,6 +1,6 @@
 # Base blog settings
 baseurl:
-  "/blog3" # the subpath of your site,                         # e.g. /blog/
+  "''" # the subpath of your site,                         # e.g. /blog/
   # set to '' in case of hosting on GitHub
 url:
   "https://matheuscostadesign.github.io" # the base hostname & protocol for your site
