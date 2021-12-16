@@ -19,9 +19,12 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Desenvolvedor Frontend e UX/UI Designer</p>
         <p>
-          Espaço onde compartilho novos conhecimentos em <code>desenvolvimento web!</code>
+          Espaço onde compartilho novos conhecimentos em <code>desenvolvimento web! </code>
+          Acesse meu portfolio no{" "}
+          <a href="https://matheuscostadesign.github.io" target="_blank">
+            Github.
+          </a>
         </p>
       </section>
 
