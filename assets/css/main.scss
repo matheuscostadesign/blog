@@ -1,30 +1,36 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
-sitemap:
-  exclude: 'yes'
 ---
-@charset "utf-8";
 
-@import "mixins";
-@import "variables";
+// Default theme colors
+$theme-colors: (
+  "coolblack": #090a0b,
+  "spacegrey": #353535,
+  "snowwhite": #ffffff,
+);
 
-@import "base";
+// Default brand colors
+$brand-colors: (
+  "orangered": #ff5100,
+  "greatgold": #f2cb05,
+  "greenblue": #389092,
+);
 
-@import "header";
-@import "articles";
-@import "titles";
-@import "hero";
+$theme-name: "{{ site.theme_color }}";
+$brand-name: "{{ site.brand_color }}";
+$theme-color: map-get($theme-colors, "snowwhite");
+$brand-color: map-get($brand-colors, "orangered");
 
-@import "components";
+@if map-has-key($theme-colors, $theme-name) {
+  $theme-color: map-get($theme-colors, $theme-name);
+} @else if str-index($theme-name, "#") == 1 {
+  $theme-color: {{ site.theme_color | default: '#ffffff' }};
+}
 
-@import "notices";
-@import "blockquote";
-@import "table";
-@import "code";
+@if map-has-key($brand-colors, $brand-name) {
+  $brand-color: map-get($brand-colors, $brand-name);
+} @else if str-index($brand-name, "#") == 1 {
+  $brand-color: {{ site.brand_color | default: '#ff5100' }};
+}
 
-@import "404";
-@import "jekyll-github";
-@import "pagination";
-@import "footer";
-
-@import "icons";
+@import "yat";
