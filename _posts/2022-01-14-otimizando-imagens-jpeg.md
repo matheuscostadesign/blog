@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Otimização imagens JPEG"
+author: matheus
+categories: [Front-end, UX/UI]
+image: assets/images/otimizando-imagens-jpeg.jpg
+---
+
+Ferramenta útil para otimizar imagens em JPG/JPEG
+
+<a href="https://jpeg.rocks/" rel="noopener noreferrer">https://jpeg.rocks/</a>
