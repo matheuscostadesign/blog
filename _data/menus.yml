@@ -9,22 +9,22 @@ topmenu:
   - title: Contato
     url: "contact/"
 
-  - title: Get this theme
+  - title: Vamos conversar?
     url: https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/
     class: "ml-2 btn btn-dark text-white px-3"
     external: true
 
 # Footer Menu
 footermenu:
-  - title: Home
+  - title: Início
     url: ""
 
-  - title: Privacy Policy
-    url: "privacy-policy/"
+  # - title: Política de Privacidade
+  #   url: "privacy-policy/"
 
-  - title: Contact
+  - title: Contato
     url: "contact/"
 
-  - title: Download
-    url: https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/
-    external: true
+  # - title: Download
+  #   url: https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/
+  #   external: true
