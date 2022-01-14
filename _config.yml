@@ -1,16 +1,16 @@
 title: "Affiliates"
-email: wowthemesnet@gmail.com
+email: matheuscostadosantos@hotmail.com
 timezone: UTC
 baseurl: "/blog"
 url: "https://matheuscostadesign.github.io"
 permalink: "/:title/"
 logo: "assets/images/logo.png"
 favicon: "assets/images/favicon.ico"
-author: Sal
+author: Matheus Costa
 paginate: 30
 disqus: "demowebsite"
-locale: en_us
-lang: en_us
+locale: pt-BR
+lang: pt-BR
 feed_items: 10
 feed_update_period: daily
 feed_update_frequency: 1
@@ -25,11 +25,11 @@ ganalytics: UA-113961478-1
 
 # Authors
 authors:
-  sal:
-    name: Sal
-    display_name: Sal
+  matheus:
+    name: Matheus Costa
+    display_name: Matheus Costa
     avatar: "assets/images/sal.png"
-    email: wowthemesnet@gmail.com
+    email: matheuscostadosantos@hotmail.com
     web: https://www.wowthemes.net/category/jekyll-themes/
     twitter: https://twitter.com/wowthemesnet
     description: "Author of Affiliates, a template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
