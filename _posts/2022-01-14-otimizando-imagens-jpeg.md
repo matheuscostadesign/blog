@@ -3,7 +3,7 @@ layout: post
 title: "Otimização imagens JPEG"
 author: matheus
 categories: [Front-end, UX/UI]
-image: assets/images/otimizando-imagens-jpeg.jpg
+image: assets/images/posts/otimizando-imagens-jpeg.jpg
 ---
 
 Ferramenta útil para otimizar imagens em JPG/JPEG
