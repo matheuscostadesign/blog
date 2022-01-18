@@ -4,6 +4,7 @@ title: "Disponibilize imagens em formatos de última geração"
 author: matheus
 categories: [Front-end]
 image: assets/images/posts/converter-imagem-webp.jpg
+comments: true
 ---
 
 Veja neste artigo como resolver o problema no resultado do Google Pagespeed: _"Disponibilize imagens em formatos de última geração"_

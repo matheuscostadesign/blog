@@ -8,7 +8,7 @@ logo: "assets/images/logo.png"
 favicon: "assets/images/favicon.ico"
 author: Matheus Costa
 paginate: 30
-disqus: "demowebsite"
+disqus: "matheuscosta"
 locale: pt-BR
 lang: pt-BR
 feed_items: 10
