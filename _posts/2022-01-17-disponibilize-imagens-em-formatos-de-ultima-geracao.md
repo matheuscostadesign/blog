@@ -6,20 +6,21 @@ categories: [Front-end]
 image: assets/images/posts/converter-imagem-webp.jpg
 ---
 
-Veja neste artigo como resolver o problema no resultado do Google Pagespeed: "Disponibilize imagens em formatos de última geração"
+Veja neste artigo como resolver o problema no resultado do Google Pagespeed: _"Disponibilize imagens em formatos de última geração"_
 
 ### Convertendo imagens para WEBP com Photoshop
 
 - Baixar o plugin: WebPShop.8bi
-  - https://developers.google.com/speed/webp/docs/webpshop#windows_installation_steps
-  - https://github.com/webmproject/WebPShop/releases
+  - [Documentação WEBP do Google][link1]
+  - [Baixar projeto no Github][link2]
 - Inserir o arquivo `WebPShop.8bi` no pasta Plugins do Photoshop
   - Ex: `Photoshop18\App\Ps\Plug-ins`
-- Para exportar a imagem como WEBP basta clicar em Save As e selecionar o tipo: `WEBP`
+- Para exportar a imagem como WEBP basta clicar em `Save As` e selecionar o tipo: `WEBP`
+
+[link1]: https://developers.google.com/speed/webp/docs/webpshop#windows_installation_steps
+[link2]: https://github.com/webmproject/WebPShop/releases
 
 ### Usando imagens WEBP no HTML
-
-- https://ole.michelsen.dk/blog/using-webp-images-html-css/
 
 ```html
 <picture>
@@ -35,3 +36,7 @@ Veja neste artigo como resolver o problema no resultado do Google Pagespeed: "Di
 background: url("../assets/images/bg-info.jpg");
 background: -webkit-image-set(url("../assets/images/bg-info.webp") 1x) no-repeat;
 ```
+
+### Referencias
+
+- [Ole Michelsen](https://ole.michelsen.dk/blog/using-webp-images-html-css/)
