@@ -2,7 +2,7 @@
 layout: post
 title: "Disponibilize imagens em formatos de última geração"
 author: matheus
-categories: [Front-end, UX/UI]
+categories: [Front-end]
 image: assets/images/posts/converter-imagem-webp.jpg
 ---
 
