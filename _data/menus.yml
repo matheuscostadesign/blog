@@ -10,7 +10,7 @@ topmenu:
     url: "contact/"
 
   - title: Vamos conversar?
-    url: https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/
+    url: https://api.whatsapp.com/send?phone=+5517992143072&amp;text=Vamos conversar!
     class: "ml-2 btn btn-dark text-white px-3"
     external: true
 
