@@ -19,7 +19,7 @@ Veja neste artigo como mostrar o ano atual automaticamente no footer do site
 
 ## Javascript
 
-- Já no arquivo Javascript, insira os comandos abaixo:
+- Já no arquivo no seu arquivo Javascript, insira os comandos abaixo:
 
 ```js
 const ano = document.getElementById("mostrarAnoAtual");
@@ -28,3 +28,7 @@ ano.innerHTML = anoAtual.getFullYear();
 ```
 
 - Dessa forma, na tag `<span>` que foi adicionado no seu HTML será exibido o ano atual automaticamente, sem a necessidade de ficar trocando todo ano.
+
+> Gostou da dica? Sabe de algo que possa melhor? Então comente abaixo!
+
+Valeeu! 👊
