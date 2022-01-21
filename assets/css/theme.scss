@@ -616,6 +616,22 @@ span.navigation:before {
     opacity:.8;
 }
 
+/* Code blocks */
 pre {
-    color: #e83e8c;
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+    background: #272822;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    color: #f8f8f2;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+    font-size: 13px;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;   
+    hyphens: none;
 }
