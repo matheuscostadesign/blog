@@ -9,11 +9,15 @@ comments: true
 
 Veja neste artigo como mostrar o ano atual automaticamente no footer do site
 
+## HTML
+
 - Adicione o conteúdo da tag `<span>` abaixo no seu arquivo HTML, onde deseja exibir o ano atual automaticamente.
 
 ```html
 <span id="mostrarAnoAtual"></span>
 ```
+
+## Javascript
 
 - Já no arquivo Javascript, insira os comandos abaixo:
 
