@@ -87,6 +87,11 @@ small, .small {
 /* #Navigation
 ================================================== */
 
+.navbar-brand {
+    width: 100%;
+    max-width: 68px;
+}
+
 .start-header {
 	opacity: 1;
 	transform: translateY(0);
