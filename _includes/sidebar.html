@@ -1,11 +1,17 @@
 <div class="sidebar sticky-top">
-    <div class="sidebar-section">
+    {% include newsletter.html %}
+    <!-- <div class="sidebar-section">
         <h5><span>Newsletter</span></h5>
-        {% include newsletter.html %}
-    </div>
+    </div> -->
     <div class="sidebar-section">
-        <h5><span>Ads</span></h5>
-        <p>Aqui vai um parágrafo, com imagens, etc</p>
+        <h5><span>Quem sou eu</span></h5>
+        <img src="{{site.baseurl}}/assets/images/matheus.jpg" class="foto-matheus">
+        <div class="sidebar-txt mt-2">
+            <h4>Blog Matheus Costa</h4>
+            <h6>UX/UI Designer & Dev Frontend</h6><br>
+        </div>
+        <p>Fala galera, neste blog compartilho dicas e novos conhecimentos adquiridos sobre desenvolvimento web e
+            design UX/UI.</p>
         <!-- <img src="{{site.baseurl}}/assets/images/ad.png"> -->
     </div>
 </div>
