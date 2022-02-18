@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Como alterar a cor do texto selecionado de um site"
+title: "Como alterar a cor do texto selecionado de uma página com CSS"
 author: matheus
 categories: [Front-end]
 image: assets/images/posts/como-alterar-cor-do-texto-selecionado-de-um-site.jpg
