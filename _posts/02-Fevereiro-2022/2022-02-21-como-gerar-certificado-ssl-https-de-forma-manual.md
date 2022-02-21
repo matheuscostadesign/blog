@@ -74,9 +74,7 @@ E de 3 em 3 meses será necessário refazer todo processo.
 - `C:\Certbot\live\dominio.com.br\fullchain.pem`
 - `C:\Certbot\live\dominio.com.br\privkey.pem`
 
-![ssl1.png]({{ site.baseurl }}/assets/images/posts/2022-02-Fevereiro/ssl1.png)
-
-![ssl2.png]({{ site.baseurl }}/assets/images/posts/2022-02-Fevereiro/ssl2.png)
+![ssl.png]({{ site.baseurl }}/assets/images/posts/2022-02-Fevereiro/ssl.png)
 
 ## Enviando certificado para a empresa de hospedagem
 
