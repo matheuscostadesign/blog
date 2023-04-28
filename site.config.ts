@@ -17,7 +17,7 @@ export default siteConfig({
   description: 'Neste blog compartilho dicas e novos conhecimentos adquiridos sobre desenvolvimento web e design UX/UI.',
 
   // social usernames (optional)
-  twitter: 'matheuscostadesign',
+  twitter: 'matheuscdesign',
   github: 'matheuscostadesign',
   linkedin: 'mattheuscosta',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
