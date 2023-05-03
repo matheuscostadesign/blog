@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'Blog Matheus Costa',
-  domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
+  domain: 'https://matheuscosta.vercel.app/',
   author: 'Matheus Costa',
 
   // open graph metadata (optional)
