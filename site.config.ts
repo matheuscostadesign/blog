@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'Blog Matheus Costa',
-  domain: 'https://matheuscosta.vercel.app/',
+  domain: 'matheuscosta.vercel.app',
   author: 'Matheus Costa',
 
   // open graph metadata (optional)
